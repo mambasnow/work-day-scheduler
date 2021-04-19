@@ -9,6 +9,8 @@ Enter your to do text for that day
 Click save  to secure your plans
 
 
+
+
 To clear click the clear button it will remove all your changes slot.
 If you refresh the respective timeslot will be clear
 
