@@ -26,14 +26,14 @@ button{
 }
 
 
-.currentTime{
+.greenBG{
     background-color: rgb(62, 173, 62);
 }
 
-.past{
+.greyBG{
     background-color: rgb(185, 180, 180);
 }
 
-.future{
+.redBG{
     background-color: rgb(212, 120, 120);
 }

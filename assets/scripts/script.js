@@ -29,24 +29,24 @@ function colorBoxTime(){
 
 
         if(timeNum < CurrentHour){
-            $(this).addClass("past");
-            $(this).removeClass("currentTime");
-            $(this).removeClass("future");
+            $(this).addClass("greyBG");
+            $(this).removeClass("greenBG");
+            $(this).removeClass("redBG");
             
         }
 
         if(timeNum > CurrentHour){
-            $(this).addClass("future");
-            $(this).removeClass("currentTime");
-            $(this).removeClass("past");
+            $(this).addClass("redBG");
+            $(this).removeClass("greenBG");
+            $(this).removeClass("greyBG");
             
         }
 
 
         if(timeNum === CurrentHour){
-            $(this).addClass("currentTime");  
-            $(this).removeClass("past");
-            $(this).removeClass("future");
+            $(this).addClass("greenBG");  
+            $(this).removeClass("greyBG");
+            $(this).removeClass("redBG");
             
         }
     })
