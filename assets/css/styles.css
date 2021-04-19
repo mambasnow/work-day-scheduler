@@ -27,13 +27,13 @@ button{
 
 
 .currentTime{
-    background-color: green;
+    background-color: rgb(62, 173, 62);
 }
 
 .past{
-    background-color: grey;
+    background-color: rgb(185, 180, 180);
 }
 
 .future{
-    color: red;
+    background-color: rgb(212, 120, 120);
 }
